@@ -85,15 +85,15 @@
   border-color: #007bb5;
 }
 
-.rounded-social-buttons .social-button.youtube {
+.rounded-social-buttons .social-button.github {
   background: red;
 }
 
-.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.github:hover,
 .rounded-social-buttons .social-button.youtube:focus {
-  color: #bb0000;
+  color: #111;
   background: #fefefe;
-  border-color: #bb0000;
+  border-color: #111;
 }
 
 .rounded-social-buttons .social-button.instagram {
