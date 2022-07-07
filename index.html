@@ -249,20 +249,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/poojareshu.ps@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" id="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -278,10 +278,28 @@
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
         <script src="script.js"></script>
 
-        <div class="main"></div>
+        <!-- <div class="main"></div> -->
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "reshupooja.ps@gmail.com",
+                Password : "2C0269E393B8539D4C80C6A66F2AEDCEE114",
+                To : 'poojareshu.ps@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script> -->
 
 
 
 
     </body>
 </html>
+<!-- onsubmit="sendEmail(); reset();return false" -->
