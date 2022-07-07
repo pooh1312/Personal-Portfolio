@@ -439,7 +439,7 @@ transform: translate(-50%, -50%) scale(1);
 .services .title::after,
 .skills .title::after {
   background: #111;
-  content: 'what i build';
+  content: 'what i built';
 }
 .box-container {
   display: flex;
